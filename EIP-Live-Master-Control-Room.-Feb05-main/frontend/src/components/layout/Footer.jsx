@@ -29,7 +29,7 @@ const PartnerLogo = ({ src, alt }) => {
 
 export const Footer = () => {
     return (
-        <footer className="fixed bottom-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-sm border-t border-primary/30">
+        <footer className="relative z-10 bg-background/90 backdrop-blur-sm border-t border-primary/30 mt-auto">
             {/* Partner logos row */}
             <div className="py-3 border-b border-primary/20">
                 <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8 px-4">
